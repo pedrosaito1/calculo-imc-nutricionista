@@ -14,6 +14,12 @@ Linkedin: <a href="https://www.linkedin.com/posts/pedrosaito1_pedro-henrique-sai
 ✅ Filtra pacientes <br>
 ✅ Validação de valores incorretos <br>
 
+## Como usar?
+
+🛠 Adicionar pacientes: preencher o formulário e clicar no botão adicionar <br>
+🛠 Remover pacientes: clicar duas vezes na linha do paciente que quer remover <br>
+🛠 Filtrar pacientes: digitar o nome do paciente no campo destacado <br>
+
 ## Tecnologia usadas: 
 
 ◾ HTML <br>
@@ -23,5 +29,7 @@ Linkedin: <a href="https://www.linkedin.com/posts/pedrosaito1_pedro-henrique-sai
 ## Autor:
 
 Pedro Saito <br>
+
 <img src="/images/pedro_saito.jpg" width="150px"></img><br>
+
 <a href="https://www.linkedin.com/in/pedrosaito1/" target="_blank">Linkedin</a>
