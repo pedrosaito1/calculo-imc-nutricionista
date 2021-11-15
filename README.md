@@ -23,5 +23,5 @@ Linkedin: <a href="https://www.linkedin.com/posts/pedrosaito1_pedro-henrique-sai
 ## Autor:
 
 Pedro Saito <br>
-<img src="/images/pedro_saito.jpg" width="150px"></img>
+<img src="/images/pedro_saito.jpg" width="150px"></img><br>
 <a href="https://www.linkedin.com/in/pedrosaito1/" target="_blank">Linkedin</a>
