@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body e Container(tabela e formulário)*/
+body {
+    background-color: #DBF5D3;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/*Header e titulo*/
+header {
+    background-color: #18853E;
+    color: white;
+    text-align: center;
+    max-height: 5rem;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.titulo {
+    padding-top: 40px;
+    padding-left: 20px;
+    color: black;
+}
+
+/*Ferramenta de filtragem de pacientes*/
+div.filtro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 120px;
+}
+
+div.filtro input {
+    text-indent: 30px;
+}
+
+div.filtro label {
+    padding-bottom: 10px;
+}
+
+#filtrar-tabela {
+    width: 250px;
+    height: 35px;
+}
+
+.invisivel {
+    display: none;
+}
+
+/*Tabela*/
+table {
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    border-spacing: 0;
+}
+
+td, th {
+    width: 200px;
+    padding: 14px;
+    margin: 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    margin-bottom: .2em;
+    background-color:rgb(190, 184, 184);
+    color: black;
+}
+
+/*Formulário*/
+form {
+    background-color: #18853E;
+    border-radius: 10px;
+}
+
+.form-titulo {
+    padding: 20px 20px 0 20px;
+    color: black;
+}
+
+#form-adiciona {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.grupo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.grupo input {
+    width: 320px;
+    height: 30px;
+    padding: 10px;
+}
+
+.grupo label {
+    padding-bottom: 5px;
+}
+
+
+#adicionar {
+    color: black;
+    background-color: #DBF5D3;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px 140px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*Erro quando for digitado um valor inválido no formulário*/
+.erro {
+    color: rgb(238, 146, 146);
+    padding: 10px;
+    list-style: none;
+}
+
+/*Erro na linha, quando digitado ditado diretamente no html*/
+.paciente-invalido {
+    background-color: lightpink;
+}
+
+/*Tempo que a linha da tabela é removida quando o usuário clicar duas vezes*/
+.delay-remover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/images/apple_favicon.png" type="image/x-icon">
+
+    <title>Nutricionista</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Nutricionista Pedro</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <div class="titulo">
+                <h2>Controle de IMC dos pacientes</h2>
+            </div>
+
+            <div class="filtro">
+                <label for="filtrar-tabela">Filtrar paciente: </label>
+                <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente aqui">
+            </div>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Altura(m)</th>
+                        <th>Peso(kg)</th>
+                        <th>Gordura Corporal(%)</th>
+                        <th>IMC</th>
+                    </tr>
+                </thead>
+                <tbody class="tabela-info">
+                    <tr class="paciente">
+                        <td class="info-nome">Pedro</td>
+                        <td class="info-sobrenome">Saito</td>
+                        <td class="info-altura">1.66</td>
+                        <td class="info-peso">90</td>
+                        <td class="info-gordura">20</td>
+                        <td class="info-imc">25.55</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <section class="container formulario">
+        <h2 class="form-titulo">Insira um novo paciente</h2>
+        <ul class="erro"></ul>
+        <form id="form-adiciona">
+            <div class="grupo">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite o nome do seu paciente" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="sobrenome">Sobrenome:</label>
+                <input id="sobrenome" name="sobrenome" type="text" placeholder="Digite o sobrenome do seu paciente" class="campo">
+            </div>
+            <div class="grupo">
+                <label for="peso">Peso:</label>
+                <input id="peso" name="peso" type="text" placeholder="Digite o peso do seu paciente" class="campo campo-medio">
+            </div>
+            <div class="grupo">
+                <label for="altura">Altura:</label>
+                <input id="altura" name="altura" type="text" placeholder="Digite a altura do seu paciente" class="campo campo-medio">
+            </div>
+            <div class="grupo">
+                <label for="gordura">% de Gordura:</label>
+                <input id="gordura" type="text" placeholder="Digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
+            </div>
+
+            <button id="adicionar" class="botao bto-principal">Adicionar</button>
+        </form>
+    </section>
+
+    <footer>&copy; <a href="">Pedro Saito</a></footer>
+    <script src="/js/main.js"></script>
+    <script src="/js/form.js"></script>
+    <script src="/js/remover-paciente.js"></script>
+    <script src="/js/filtrar-paciente.js"></script>
+</body>
+</html>
